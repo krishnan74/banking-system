@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+    text-decoration: none;
+    width: fit-content;
+
+}
+
+a:visited, a:link{
+    color: black;
+}
+
+.hero{
+    margin-top: 150px;
+}
+
+.user_profile{
+position: absolute;
+top: 200px;
+left: 15%;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+#trans_button{
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 35px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 5px 5px 1px rgb(0, 0, 0);
+    cursor: pointer;
+
+}   
+
+.each_cust_trans_btn{
+    margin-top: 0px;
+}
+
+
+
+.user_details_div h3{
+    font-size: xx-large;
+
+}
+
+p{
+    font-size: xx-large;
+    margin-left: 10px;
+
+}
+
+.customer_photo{   
+    height: 300px;
+    width: 450px;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+#customer{
+    width: 100px;
+}
+
+#trans{
+    width: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #828282ad;
+    border: 1px solid #828282ad;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+#bank{
+    height: 80px;
+    width: 80px;
+}
+
+.abtme{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    width: 500px;
+    align-items: center;
+}
+
+
+.navbar{
+    display: flex;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+    font-size: smaller;
+    letter-spacing: 3px;
+}
+
+.navbar > div{
+    padding: 10px 15px 10px 15px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.navbar > div:hover {
+    background-color: #8282821e;
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#customer_table{
+    position: relative;
+    top: 550px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: start;
+}
+  
+  th, td {
+    padding: 0px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover :not(th) {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+
+  th {
+    color: black;
+  }
+
+#amount_text{
+    font-size: small;
+}

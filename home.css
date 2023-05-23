@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.wlcm{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 150px;
+}
+
+.options_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14%;
+}
+
+.customer_tab{
+    border: 1px solid black;
+    padding:10px 20px;
+}
+
+table{
+    margin: auto;
+    margin-top: 20px;
+}
+
+table th{
+    padding: 10px;
+}
+
+table td{
+    padding: 5px;
+}
+
+.transactions_tab{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+#customer{
+    width: 100px;
+}
+
+#trans{
+    width: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid #828282ad;
+    border: 1px solid #828282ad;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.abtme{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    width: 500px;
+    align-items: center;
+}
+
+
+.navbar{
+    display: flex;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+    font-size: smaller;
+    letter-spacing: 3px;
+}
+
+.navbar > div{
+    padding: 10px 15px 10px 15px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.navbar > div:hover {
+    background-color: #8282821e;
+}
+
+#bank{
+    height: 70px;
+    width: 70px;
+}
+
+a{
+    text-decoration: none;
+    width: fit-content;
+
+}
+
+a:visited, a:link{
+    color: black;
+}
+
+
+
